@@ -12,14 +12,14 @@ pipeline {
                 echo "Building process inprogress ....."
             }
         }
-      stage ('Test the code) {
+      stage ('Test the code') {
              steps {
              echo "Test the codes"
              }
       }
-             stage ('Deploy to Producion) {
+             stage ('Deploy to Producion') {
              steps {
-             echo "Deploy to the Production"
+             echo "Deploy to the Production department"
              }
       }
     }
