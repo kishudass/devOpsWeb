@@ -12,7 +12,7 @@ pipeline {
          pollSCM('* * * * *')
      }
     
-    environments {
+    environment {
         fname = "Kishore"    
         lname = "Dass"
         version = "1.2"
